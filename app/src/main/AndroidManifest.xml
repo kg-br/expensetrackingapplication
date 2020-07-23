@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sql">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ExpTrack"
+        android:roundIcon="@drawable/logobest"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".aboutus" />
+        <activity android:name=".spalashscreen" />
+        <activity android:name=".piechart" />
+        <activity android:name=".tasks" />
+        <activity android:name=".testingoftabs" />
+        <activity android:name=".createpdf" />
+        <activity android:name=".Monthwise" />
+        <activity android:name=".updateactivity" />
+        <activity android:name=".alltransactions" />
+
+
+
+
+        <activity
+            android:name=".MainActivity"
+
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/app_name"
+            />
+
+
+    </application>
+
+
+
+</manifest>

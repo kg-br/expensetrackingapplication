@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/adexp"
+            android:icon="@drawable/money"
+            android:title="Add Expenses" />
+        <item
+            android:id="@+id/alltr"
+            android:icon="@drawable/alltrlogo"
+            android:title="View all transactions" />
+
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/sort"
+            android:title="Sort" />
+        <item
+            android:id="@+id/nav_tasks"
+            android:icon="@drawable/ic_add_alarm_black_24dp"
+            android:title="Set your tasks" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/bulb"
+                android:title="Tips and Tricks" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/backuplogo"
+                android:title="Backup" />
+
+        </menu>
+    </item>
+
+</menu>
